@@ -1,4 +1,161 @@
 .App {
   text-align: center;
+  border: 1px solid black;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
 }
 
+.container {
+  border: 1px solid black;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.split {
+  border: 1px solid black;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.split.left {
+  border: 1px solid black;
+  background-color: #00563f;
+  left: 0;
+}
+
+.split.right {
+  right: 0;
+  background-color: #904860;
+}
+
+
+/* .portfolio {
+  font-size: 50px;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+} */
+
+/* .about-me {
+  font-size: 50px;
+  position: absolute;
+  left: 50%;
+  top: 20%;
+} */
+
+.btn {
+  line-height: 50px;
+  height: 50px;
+  text-align: center;
+  width: 250px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+}
+
+.left-btn {
+  transition: all 0.5s;
+  position: relative;
+}
+
+.right-btn {
+  transition: all 0.5s;
+  position: relative;
+}
+
+.left-btn span {
+  z-index: 2;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.right-btn span {
+  z-index: 2;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.left-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border: 1px solid #f593b4;
+  background-color: #904860;
+}
+
+.right-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border: 1px solid #1b8568;
+  background-color: #00563f;
+}
+
+.left-btn::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border: 1px solid #f593b4;
+  background-color: #904860;
+}
+
+.right-btn::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transition: all 0.5s;
+  border: 1px solid #1b8568;
+  background-color: #00563f;
+}
+
+.left-btn:hover::before {
+  transform: rotate(-45deg);
+  background-color: #c71585;
+}
+
+.right-btn:hover::before {
+  transform: rotate(-45deg);
+  background-color: #74b72e;
+}
+
+.left-btn:hover::after {
+  transform: rotate(45deg);
+  background-color: #c71585;
+}
+
+.right-btn:hover::after {
+  transform: rotate(45deg);
+  background-color: #74b72e;
+}
+
+span {
+  font-size: 50px;
+}
