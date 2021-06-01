@@ -1,11 +1,12 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
+import Carousel from '../Components/Carousel'
 
 const Contact = () => {
     return (
-        <div>
+        <div className="contact">
             <Navbar />
-            <h1>Hello From Contact</h1>
+            <Carousel />
         </div>
     )
 }
