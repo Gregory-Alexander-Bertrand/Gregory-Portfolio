@@ -9,6 +9,7 @@ const AboutMe = () => {
                 <div className="hero-container">
                     <h1 className="name">Gregory Alexander Bertrand</h1>
                     <h2 className="descriptions">Front-End Web-Developer. Writer. Copy Editor. All around creative person.</h2>
+                    
                 </div>
             </div>
             <section className="content">
@@ -17,6 +18,7 @@ const AboutMe = () => {
                 <p className="personal-story">So, who exactly am I, you might be asking. Quite simply I'm a writer/ copy editor entering the world of tech and Front-End Web-Development. I believe the best use for the internet and technology is to foster better communication between humans. Whether that communication is visual or descriptive, and whether I'm designing clean, narrative-focused websites and apps, designing chat bots, or editing technical writing, it's my responsibility to complete my work to the best of my abilities.</p>
                 
             </section>
+            
         </div>
     )
 }

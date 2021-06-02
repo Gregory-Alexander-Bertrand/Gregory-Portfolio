@@ -1,26 +1,25 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faCodepen } from '@fortawesome/free-brands-svg-icons'
 
 const Carousel = () => {
     return (
-        <div className="carousel">
-            <input type="radio" name="contact" checked/>
-            <input type="radio" name="contact" />
-            <input type="radio" name="contact" />
-            <input type="radio" name="contact" />
-            <main id="carousel">
-                <div className="contact-info">
-                    <h3 className="contact-info-card">GitHub</h3>
-                </div>
-                <div className="contact-info">
-                    <h3 className="contact-info-card">CodePen</h3>
-                </div>
-                <div className="contact-info">
-                    <h3 className="contact-info-card">Email</h3>
-                </div>
-                <div className="contact-info">
-                    <h3 className="contact-info-card">LinkedIn</h3>
-                </div>
-            </main>
+        <div>
+            <div className="carousel">
+                <h1>My Socials</h1>
+            <a href="https://github.com/Gregory-Alexander-Bertrand" className="contact-icon">
+         <FontAwesomeIcon icon={faGithub} />
+         </a>
+         <a href="https://www.linkedin.com/in/gregory-bertrand-7b4827143/" className="contact-icon">
+             <FontAwesomeIcon icon={faLinkedin} />
+         </a>
+         <a href="https://codepen.io/gregorybertran2" className="contact-icon">
+             <FontAwesomeIcon icon={faCodepen} />
+         </a>
+         <h1>Email: gregoryalexbertrand@gmail.com</h1>
+            </div>
         </div>
     )
 }
