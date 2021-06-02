@@ -1,6 +1,5 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-
 const Home = () => {
     return (
         <div className="container">
@@ -8,7 +7,7 @@ const Home = () => {
             <h1 className="my-header">Gregory Alexander Bertrand</h1>
                 <div className="btn left-btn">
                 <Link to="/Portfolio" className="portfolio"><span>Portfolio</span></Link>
-                </div>
+                </div>  
             </div>
             <div className="split right">
                 <h1 className="my-header">Front-End Web-Developer. Writer. Editor</h1>

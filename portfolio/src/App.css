@@ -261,6 +261,26 @@ nav {
 
 .project-card {
   width: 500px;
+  height: 500px;
+  box-shadow: 5px 5px 5px 5px;
+}
+
+.project-container {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-image {
+  height: 150px;
+  width: 300px;
+}
+
+.git-hub-links {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 
