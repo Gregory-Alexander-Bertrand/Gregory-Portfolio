@@ -170,6 +170,12 @@ nav {
   justify-content: space-evenly;
 }
 
+.portfolio-container {
+  height: 100%;
+  background-image: url(https://images.unsplash.com/photo-1518893494013-481c1d8ed3fd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+}
+
+
 .about {
   height: 100%;
 }
@@ -240,6 +246,21 @@ nav {
 
 .contact-icon:hover {
   color: #904860;
+}
+
+.font-icon {
+  font-size: 60px;
+  color: #ffffff;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.project-card {
+  width: 500px;
 }
 
 
