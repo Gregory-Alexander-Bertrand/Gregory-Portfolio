@@ -3,7 +3,7 @@ import {Link, Redirect} from 'react-router-dom'
 const Navbar = () => {
     return (
         <div className="navigation">
-            <nav>
+            <nav className="navbar">
                 <div className="wrapper">
                 <Link to="/" className="home-btn">Home</Link>
                 </div>

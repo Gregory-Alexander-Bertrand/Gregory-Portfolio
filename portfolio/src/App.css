@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Wire+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
 
+
 .App {
   text-align: center;
   height: 100vh;
-  overflow: -moz-hidden-unscrollable;
+  margin: 0;
+  padding: 0;
   
 }
+
 
 .container {
   border: 1px solid black;
@@ -164,10 +167,22 @@ span {
   font-weight: 900;
 }
 
-nav {
+.navbar {
+  width: 100%;
+  min-height: 6vh;
+  box-sizing: border-box;
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
+  align-items: center;
+  background-color: #1e7244;
+  transition: all .7s ease-in;
+}
+
+.scrolled{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: lightblue;
 }
 
 .portfolio-container {
@@ -176,13 +191,15 @@ nav {
   background-size: cover;
 }
 
+.project-container {
+  height: fit-content;
+}
 
 .about {
   height: 100%;
 }
 
 .hero {
-  border: 1px solid black;
   background-image: url(https://images.unsplash.com/photo-1622296367225-9af4f117c6a7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
   background-repeat: no-repeat;
   background-size: cover;
@@ -264,13 +281,7 @@ nav {
   border-radius: 25px;
 }
 
-.project-container {
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
+
 
 .project-image {
   height: 350px;
