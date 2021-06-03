@@ -7,6 +7,7 @@ import { faCss3 } from '@fortawesome/free-brands-svg-icons'
 import { faPython } from '@fortawesome/free-brands-svg-icons'
 import Card from '@material-ui/core/Card'
 import Button from '@material-ui/core/Button'
+import ProjectCard from '../Components/ProjectCard'
 
 
 
@@ -30,23 +31,7 @@ const Portfolio = () => {
             </h1>
             </div>
             <div className="project-container">
-                <Card className="project-card">
-                    <div className="git-hub-links">
-                    <Button variant="outlined">
-                        <a href="https://github.com/Gregory-Alexander-Bertrand/Writers-Unblocker-Frontend">Front-End Repo</a>
-                    </Button>
-                    <Button variant="outlined">
-                        <a href="https://github.com/Gregory-Alexander-Bertrand/Writers-Unblocker-Backend">Back-End Repo</a>
-                    </Button>
-                    </div>
-                    <div className="live-site">
-                        <Button variant="outlined">
-                            <a href="https://writers-unblocker.herokuapp.com/">Live Version</a>
-                        </Button>
-                    </div>
-                    <img src="https://i.imgur.com/9U9QRFm.png" className="project-image"></img>
-                    <h4>Writers UnBlocker</h4>
-                </Card>
+                <ProjectCard />
             </div>
         </div>
     )
