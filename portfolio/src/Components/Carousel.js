@@ -9,7 +9,7 @@ const Carousel = () => {
     return (
         <div>
             <div className="carousel">
-                <h1>My Socials</h1>
+                <h1>Contacts</h1>
             <a href="https://github.com/Gregory-Alexander-Bertrand" className="contact-icon">
          <FontAwesomeIcon icon={faGithub} />
          </a>
@@ -22,7 +22,6 @@ const Carousel = () => {
          <a href="https://docs.google.com/document/d/15RxCrcHAl_EqXdaQi1CQF7XAp-KEETAHOXcQzzYinhY/edit" className="contact-icon">
             <FontAwesomeIcon icon={faFileWord} />
          </a>
-         <h1>Email: gregoryalexbertrand@gmail.com</h1>
             </div>
         </div>
     )

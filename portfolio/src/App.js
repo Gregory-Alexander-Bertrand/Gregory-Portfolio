@@ -4,7 +4,7 @@ import './App.css';
 import Portfolio from './Pages/Portfolio'
 import Home from './Pages/Home'
 import AboutMe from './Pages/AboutMe'
-import Contact from './Pages/Contact'
+
 
 function App() {
   return (
@@ -25,12 +25,6 @@ function App() {
       path="/AboutMe"
       render={() => {
         return <AboutMe />
-      }}
-      />
-      <Route
-      path="/Contact"
-      render={() => {
-        return <Contact />
       }}
       />
     </div>

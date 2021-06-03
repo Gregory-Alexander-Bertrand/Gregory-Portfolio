@@ -4,6 +4,7 @@
 .App {
   text-align: center;
   height: 100vh;
+  overflow: -moz-hidden-unscrollable;
   
 }
 
@@ -215,7 +216,7 @@ nav {
 
 .content {
   background-color: #904860;
-  height: 100vh;
+  height: 50vh;
 }
 
 .content-header {
@@ -230,11 +231,9 @@ nav {
 
 .carousel {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  background-color: #00563f;
 }
 
 .contact-icon {
@@ -245,7 +244,7 @@ nav {
 }
 
 .contact-icon:hover {
-  color: #904860;
+  color: #00563f;
 }
 
 .font-icon {
@@ -266,6 +265,7 @@ nav {
 }
 
 .project-container {
+  height: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;

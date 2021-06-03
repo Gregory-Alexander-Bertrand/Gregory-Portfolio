@@ -7,7 +7,7 @@ import { faCss3 } from '@fortawesome/free-brands-svg-icons'
 import { faPython } from '@fortawesome/free-brands-svg-icons'
 import Card from '@material-ui/core/Card'
 import Button from '@material-ui/core/Button'
-import ProjectCard from '../Components/ProjectCard'
+// import ProjectCard from '../Components/ProjectCard'
 
 
 
@@ -31,7 +31,7 @@ const Portfolio = () => {
             </h1>
             </div>
             <div className="project-container">
-                <ProjectCard />
+                {/* <ProjectCard /> */}
             </div>
         </div>
     )

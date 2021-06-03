@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
+import Carousel from '../Components/Carousel'
 
 const AboutMe = () => {
     return (
@@ -14,10 +15,11 @@ const AboutMe = () => {
             </div>
             <section className="content">
                 <h3 className="content-header">Everybody has a story. Here's mine</h3>
-                <p className="personal-story">I'm a Front-End Web-Developer with past experience in the writing and copy-editing industry. My raison d'etre is to create narrative-focused websites and applications.</p>
-                
+                <p className="personal-story">I'm a Front-End Web-Developer, writer and copy editor. As a writer, I take left-brained analytical approaches to problems in Web-Development. </p>
+                <p className="personal-story">I believe in taking an aesthetically pleasing, narrative-focused themes to whatever I create. Whether that's application design, web-design, clean-code or clean-copy.</p>
+                <Carousel />
+                <h1>Email: gregoryalexbertrand@gmail.com</h1>
             </section>
-            
         </div>
     )
 }
