@@ -266,7 +266,6 @@ nav {
 }
 
 .project-container {
-  border: 1px solid black;
   display: flex;
   flex-direction: row;
   align-items: center;

@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faCodepen } from '@fortawesome/free-brands-svg-icons'
+import { faFileWord} from '@fortawesome/free-solid-svg-icons'
 
 const Carousel = () => {
     return (
@@ -17,6 +18,9 @@ const Carousel = () => {
          </a>
          <a href="https://codepen.io/gregorybertran2" className="contact-icon">
              <FontAwesomeIcon icon={faCodepen} />
+         </a>
+         <a href="https://docs.google.com/document/d/15RxCrcHAl_EqXdaQi1CQF7XAp-KEETAHOXcQzzYinhY/edit" className="contact-icon">
+            <FontAwesomeIcon icon={faFileWord} />
          </a>
          <h1>Email: gregoryalexbertrand@gmail.com</h1>
             </div>
