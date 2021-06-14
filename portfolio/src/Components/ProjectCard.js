@@ -64,7 +64,7 @@ export default function RecipeReviewCard() {
         title="Writers Unblocker"
         subheader="Made with React & Python"
       />
-      <img src={require('../assets/project1.png').default} className="project-image"></img>
+      {/* <img src={require('../assets/project1.png').default} className="project-image"></img> */}
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
           This app functions much like a blog. Users can create writing prompts and stories which other users can comment on.

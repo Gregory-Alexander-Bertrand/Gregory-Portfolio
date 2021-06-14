@@ -4,15 +4,21 @@ import './App.css';
 import Portfolio from './Pages/Portfolio'
 import Home from './Pages/Home'
 import AboutMe from './Pages/AboutMe'
-
+import Construction from './Pages/Construction'
 
 function App() {
   return (
     <div className="App">
-      <Route 
-      exact path="/"
+      <Route
+      path="/Construction" 
       render={() => {
-        return <Home />
+        return <Construction />
+      }}
+      />
+      <Route 
+       path="/Home"
+      render={() => {
+        return <Construction />
       }}
       />
       <Route 
@@ -24,7 +30,7 @@ function App() {
       <Route
       path="/AboutMe"
       render={() => {
-        return <AboutMe />
+        return <Construction />
       }}
       />
     </div>
