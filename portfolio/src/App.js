@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Route
-      path="/Construction" 
+      exact path="/" 
       render={() => {
         return <Construction />
       }}
