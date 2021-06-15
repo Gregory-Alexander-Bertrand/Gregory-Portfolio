@@ -18,7 +18,7 @@ function App() {
       <Route 
        path="/Home"
       render={() => {
-        return <Construction />
+        return <Home />
       }}
       />
       <Route 

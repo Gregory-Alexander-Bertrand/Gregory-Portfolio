@@ -2,20 +2,15 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 const Home = () => {
     return (
-        <div className="container">
-            <div className="split left">
-            <h1 className="my-header">Gregory Alexander Bertrand</h1>
-                <div className="btn left-btn">
-                <Link to="/Portfolio" className="portfolio"><span>Portfolio</span></Link>
-                </div>
-                {/* <img src={require('../assets/Screen-Shot.png').default}></img> */}
-            </div>
-            <div className="split right">
-                <h1 className="my-header">Front-End Web-Developer. Writer. Editor</h1>
-                <div className="btn right-btn">
-                <Link to="/AboutMe" className="about-me"><span>About Me</span></Link>
-                </div>
-            </div>
+        <div className="hero">
+          <div className="banner">
+              <h1>Hello, I'm Gregory Alexander Bertrand</h1>
+              <ul className="roles">
+                  <li>Front-End Web-Developer</li>
+                  <li>Content Writer</li>
+                  <li>Copy Editor</li>
+              </ul>
+          </div>
         </div>
     )
 }
