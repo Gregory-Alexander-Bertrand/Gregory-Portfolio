@@ -1,6 +1,5 @@
 import React from 'react'
-
-
+import Project from '../Components/Project'
 
 
 const Portfolio = () => {
@@ -16,6 +15,7 @@ const Portfolio = () => {
                 <span>T</span>
                 <span>S</span>
             </div>
+            <Project />
         </div>
     )
 }

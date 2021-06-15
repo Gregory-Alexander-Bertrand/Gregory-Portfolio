@@ -3,19 +3,21 @@ import { Redirect, Route, Router} from 'react-router-dom'
 import './App.css';
 import Home from './Pages/Home'
 import Portfolio from './Pages/Portfolio'
-// import Construction from './Pages/Construction'
+import Skills from './Components/Skills'
+import Construction from './Pages/Construction'
 
 function App() {
   return (
     <div className="App">
-      {/* <Route
+      <Route
       exact path="/" 
       render={() => {
         return <Construction />
       }}
-      /> */}
+      />
       <Home />
       <Portfolio />
+      <Skills />
     </div>
   );
 }
