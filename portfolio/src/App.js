@@ -1,38 +1,21 @@
 import {Link} from 'react-router-dom'
 import { Redirect, Route, Router} from 'react-router-dom'
 import './App.css';
-import Portfolio from './Pages/Portfolio'
 import Home from './Pages/Home'
-import AboutMe from './Pages/AboutMe'
-import Construction from './Pages/Construction'
+import Portfolio from './Pages/Portfolio'
+// import Construction from './Pages/Construction'
 
 function App() {
   return (
     <div className="App">
-      <Route
+      {/* <Route
       exact path="/" 
       render={() => {
         return <Construction />
       }}
-      />
-      <Route 
-       path="/Home"
-      render={() => {
-        return <Home />
-      }}
-      />
-      <Route 
-      path="/Portfolio"
-      render={() => {
-        return <Portfolio />
-      }}
-      />
-      <Route
-      path="/AboutMe"
-      render={() => {
-        return <Construction />
-      }}
-      />
+      /> */}
+      <Home />
+      <Portfolio />
     </div>
   );
 }
