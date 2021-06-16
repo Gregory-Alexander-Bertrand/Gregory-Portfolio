@@ -3,7 +3,8 @@ import React from 'react'
 const Project = () => {
     return (
         <div className="first-project">
-            <h4>Writers-Unblocker</h4>
+           <h4>Writers Un-blocker</h4>
+            <img src="https://i.imgur.com/BMp5Vb3.png" />
             <span className="link">
                 <a href="https://writers-unblocker.herokuapp.com/" target="_blank">Live App</a>
             </span>
