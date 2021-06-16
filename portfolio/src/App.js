@@ -4,20 +4,22 @@ import './App.css';
 import Home from './Pages/Home'
 import Portfolio from './Pages/Portfolio'
 import Skills from './Components/Skills'
-import Construction from './Pages/Construction'
+import AboutMe from './Pages/AboutMe'
+// import Construction from './Pages/Construction'
 
 function App() {
   return (
     <div className="App">
-      <Route
+      {/* <Route
       exact path="/" 
       render={() => {
         return <Construction />
       }}
-      />
+      /> */}
       <Home />
       <Portfolio />
       <Skills />
+      <AboutMe />
     </div>
   );
 }

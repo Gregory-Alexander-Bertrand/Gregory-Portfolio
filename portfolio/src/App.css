@@ -161,6 +161,19 @@ img:hover {
 }
 
 
+
+.about {
+  background: linear-gradient(0.25turn, #d0f0c0, #a9ba9d, #8f9779);
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
 @media (max-width: 1024px) {
   h1 {
     font-size: 3rem;
@@ -180,6 +193,47 @@ img:hover {
 
   .roles {
     font-size: 2rem;
+  }
+ 
+}
+
+@media (max-width: 414px) {
+  .words span {
+    font-size: 4rem;
+  }
+
+  img {
+    height: 200px;
+    width: 150px;
+  }
+
+  .icon-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .icon {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .words span {
+    font-size: 4rem;
+  }
+
+  img {
+    height: 200px;
+    width: 150px;
+  }
+
+  .icon-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .icon {
+    font-size: 3rem;
   }
 }
 
